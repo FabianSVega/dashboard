@@ -5,7 +5,7 @@
 #father{
     display: flex;
     width: 100vh;
-    height: 40vh;
+    flex-direction: horizontal;
 }
 
 /*_________________________SIDEBAR____________________________*/
@@ -62,8 +62,33 @@ a.active:before{
 
 #child1{
     flex: 1;
+    width: 60vh;
+    order: calc(1);
+    position: relative;
+
 }
-#child2{
+
+#child3{
+    width: 100vh;
     flex: 1;
+    order: calc(3);
     padding: .88rem;
+    position: relative;
 }
+#child4{
+    width: 40vh;
+    flex: 1;
+    order: calc(2);
+    padding: .88rem;
+    position: relative;
+}
+
+#child5{
+    width: 60vh;
+    flex: 1;
+    order: calc(4);
+    padding: .88rem;
+    position: relative;
+}
+
+
